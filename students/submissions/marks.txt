@@ -25,6 +25,12 @@ S_NUMBER  , E1 , E2 , E3 , E4 , P1  ,
 1214748430,    ,    ,    ,    , 10  ,
 15516857  ,    ,    ,    ,    ,     ,
 
+
+
+1) check your errors
+2) the repetition of this partial will be almost identical: funcion plus plot for each new value
+3) compile!!!
+
 E1 - strings
 E2 - numbers
 E3 - lists (Gutenberg)
