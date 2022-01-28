@@ -2,7 +2,7 @@ S_NUMBER  , E1 , E2 , E3 , E4 , P1  ,
 1000291588, A  , A  , A  ,    , 10  ,
 1000722415, A  , A  , A  ,    , 10  ,
 1000887798, A  , A  , A  , A  , 10  ,
-1000888458,    ,    ,    ,    , 00  ,
+1000888458,    ,    ,    , A  , 00  ,
 1000921301,    ,    ,    ,    , 20  ,
 1001421195, A  ,    , A  ,    , 7/R ,
 1001477629,    ,    ,    ,    , ?   ,
@@ -27,9 +27,7 @@ S_NUMBER  , E1 , E2 , E3 , E4 , P1  ,
 
 
 
-1) check your errors
-2) the repetition of this partial will be almost identical: funcion plus plot for each new value
-3) compile!!!
+1) always check if your code compiles after restarting the kernel !!!
 
 E1 - strings
 E2 - numbers
