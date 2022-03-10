@@ -1,0 +1,16 @@
+1) always check if your code compiles after restarting the kernel !!!
+
+
+
+
+E1 - strings
+E2 - numbers
+E3 - lists (Gutenberg)
+E4 - Root Finding
+H5 - cuadratic polynomial interpolation 
+
+
+
+
+The exercise about imagenes I will count as an extra
+A - means approved - 60% of the exercise was correct
