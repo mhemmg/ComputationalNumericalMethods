@@ -1,7 +1,7 @@
 The answers to those questions can be just with 1-2 sentences, for example:
 
-Q1: how to generate 1D numpy array with 10 random integers between 1 and 100 	
-A1: x=np.random.randint(1,101,10)	
+Q1: What does this operation do: x=np.random.randint(1,100,10) ?
+A1: Generates 10 integers between 1:99	
 
 Q2: how does Euler method work? (differential equations) 			
 A2: estimates next point from the previous point and the derivative at this point 
