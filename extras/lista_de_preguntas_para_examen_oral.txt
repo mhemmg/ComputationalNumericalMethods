@@ -6,7 +6,7 @@ Example 2: how does Euler methods work? (differential equations) 			- estimates 
 
 Example 3: What is the difference between Runge-Kutta method (RK) and Euler metod?  	- RK is similar to Euler method but the derivative is calculated using more points, so RK is more precise
 
-Example 4: how deoes LU decomposition work 						- decomposes matriz into lower and upper matrix and the does backward/forward substitution
+Example 4: how does LU decomposition work 						- decomposes matriz into lower and upper matrix and then does backward/forward substitution
 
 ############## Numpy array:
 1. how to generate 1D numpy array with 10 random integers between 1 and 100
@@ -18,14 +18,14 @@ Example 4: how deoes LU decomposition work 						- decomposes matriz into lower 
 ############# Plotting
 Plotting:
 4. make a plot of a s sinusoid with a range from -pi to pi			
-																				
+
 ############## Random numbers (solo para explicar que significa siguiente operacion)
 Explain the operations:
-5. x=np.random.randint(1,100,10)                                                     
-6. A=np.random.rand(10,10)                                                           
-7. x=np.linspace(0,np.pi,100)                                                        
-8. x=np.random.uniform(2,5,100)                                                      
-9. x=np.random.normal(mu,sigma,1000)                                                 
+5. x=np.random.randint(1,100,10)    
+6. A=np.random.rand(10,10)          
+7. x=np.linspace(0,np.pi,100)       
+8. x=np.random.uniform(2,5,100)     
+9. x=np.random.normal(mu,sigma,1000)
 
 
 ############## INTERPOLATION
@@ -35,10 +35,10 @@ Explain the operations:
 ############## DIFFERENTIATION 
 12. what is the geometrical interpretation of derivative			
 13. what is the difference between scipy.misc.derivative and np.gradient?
+14. scipy.misc.derivative uses forward, backward or central derivative?		
 
 ############### INTEGRATION
-14. what is the geometrical interpretation of integration (simplified)		
-15. what are two most commond methods (schemes) for the numerical integration	
+15. what is the geometrical interpretation of integration (simplified)		
 16. what is the difference between scipy.integrate.quad, scipy.integrate.trapz y scipy.integrate.simps
 17. how can we estimate numerical integral using Monte Carlo Method
 18. what are the advantages and disadvantages of Monte Carlo Method
@@ -75,4 +75,3 @@ Explain the operations:
     	    
     b) product = np.matmul(matrix1, matrix2)	    
 
-30. scipy.misc.derivative uses forward, backward or central derivative?		
