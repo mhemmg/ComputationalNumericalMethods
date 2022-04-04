@@ -2,9 +2,9 @@ The answers to those questions can be just with 1-2 sentences, for example:
 
 Example 1: how to generate 1D numpy array with 10 random integers between 1 and 100 	- x=np.random.randint(1,101,10)	
 
-Example 2: how does Euler methods work? (differential equations) 			- estimates next point from the previous point and derivate at this point 
+Example 2: how does Euler methods work? (differential equations) 			- estimates next point from the previous point and the inclination at this point 
 
-Example 3: What is the difference between Runge-Kutta method (RK) and Euler metod?  	- RK is similar to Euler method but the derivative is calculated using more points, so RK is more precise
+Example 3: What is the difference between Runge-Kutta method (RK) and Euler metod?  	- RK is similar to Euler method but the derivative is calculated in more complex way (using more points), so RK is more precise
 
 Example 4: how does LU decomposition work 						- decomposes matriz into lower and upper matrix and then does backward/forward substitution
 
@@ -58,6 +58,7 @@ Explain the operations:
 26. let say A=np.array([1,2,3]), what is the difference between:		  
     B=A
     B=A.copy()
+
 27 what is the difference between numpy and scipy				
 										  
 28. what is the purpose of sequence:
@@ -75,3 +76,4 @@ Explain the operations:
     	    
     b) product = np.matmul(matrix1, matrix2)	    
 
+30. What is the difference between Bisection and Newton-Rapson method?
