@@ -1,4 +1,4 @@
-The answers to those questions can be just with 1-2 sentences, for example:
+List of 30 questions for the oral exam. The answers can be very short. For example:
 
 Q1: What does this operation do: x=np.random.randint(1,100,10) ?
 A1: Generates 10 integers between 1:99	
@@ -11,6 +11,8 @@ A3: RK is similar to Euler method but the derivative is calculated in more compl
 
 Q4: how does LU decomposition work 						
 A4: decomposes matriz into lower and upper matrix and then does backward/forward substitution
+
+
 
 ############## Numpy array:
 1. how to generate 1D numpy array with 10 random integers between 1 and 100
