@@ -34,8 +34,7 @@ Explain the operations:
 
 ############## DIFFERENTIATION 
 12. what is the geometrical interpretation of derivative			
-12. what is the difference between scipy.misc.derivative and np.gradient?
-13. scipy.misc.derivative uses forward, backward or central derivative?		
+13. what is the difference between scipy.misc.derivative and np.gradient?
 
 ############### INTEGRATION
 14. what is the geometrical interpretation of integration (simplified)		
@@ -56,18 +55,18 @@ Explain the operations:
 25. how can one calculate matrix to the power of 1000 most efficiently		
 										
 ############### Additional questions
-28. let say A=np.array([1,2,3]), what is the difference between:		  
+26. let say A=np.array([1,2,3]), what is the difference between:		  
     B=A
     B=A.copy()
-229 what is the difference between numpy and scipy				
+27 what is the difference between numpy and scipy				
 										  
-30. what is the purpose of sequence:
+28. what is the purpose of sequence:
     try:
     ...										
     except:
     ...
 
-31. which method is faster to multiply matrices:				
+29. which method (and why) is faster to multiply matrices:				
 
     a) for i in range(n):				        	
     	for j in range(m):
@@ -75,3 +74,5 @@ Explain the operations:
     	    product[i, j] += matrix1[i, z] * matrix2[z, j]
     	    
     b) product = np.matmul(matrix1, matrix2)	    
+
+30. scipy.misc.derivative uses forward, backward or central derivative?		
