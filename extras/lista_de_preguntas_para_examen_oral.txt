@@ -1,0 +1,85 @@
+List of 30 questions for the oral exam. The answers can be very short. For example:
+
+Q1: What does this operation do: x=np.random.randint(1,100,10) ?
+A1: Generates 10 integers between 1:99	
+
+Q2: how does Euler method work? (differential equations) 			
+A2: estimates next point from the previous point and the derivative at this point 
+
+Q3: What is the difference between Runge-Kutta method (RK) and Euler metod?  	
+A3: RK is similar to Euler method but the derivative is calculated in more complex way (using more points), so RK is more precise
+
+Q4: how does LU decomposition work 						
+A4: decomposes matriz into lower and upper matrix and then does backward/forward substitution
+
+
+
+############## Numpy array:
+1. how to generate 1D numpy array with 10 random integers between 1 and 100
+2. how to create 2D numpy array with 10 random integers between 1 and 30
+3. what is the difference between:	
+    x=np.array([[1,2,3]]) 							
+    y=np.array([[1],[2],[3]]) 
+
+############# Plotting
+Plotting:
+4. make a plot of a s sinusoid with a range from -pi to pi			
+
+############## Random numbers (solo para explicar que significa siguiente operacion)
+Explain the operations:
+5. x=np.random.randint(1,100,10) / np.unique(x) / x=np.random.randint(1,100,(5,5))
+6. A=np.random.rand(10,10)          
+7. x=np.linspace(0,np.pi,100)       
+8. x=np.random.uniform(2,5,100)     
+9. x=np.random.normal(mu,sigma,1000)
+
+
+############## INTERPOLATION
+10. what are the methods of interpolation					
+11. how does spline work							
+
+############## DIFFERENTIATION 
+12. what is the geometrical interpretation of derivative			
+13. what is the difference between scipy.misc.derivative and np.gradient?
+14. scipy.misc.derivative uses forward, backward or central derivative?		
+
+############### INTEGRATION
+15. what is the geometrical interpretation of integration (simplified)		
+16. what is the difference between scipy.integrate.quad, scipy.integrate.trapz y scipy.integrate.simps
+17. how can we estimate numerical integral using Monte Carlo Method
+18. what are the advantages and disadvantages of Monte Carlo Method
+										
+############### Differential equations
+19. how does Euler method works:						
+20. what is the difference between Runge-Kutta and Euler method							
+21. whats the difference between scipy.solve_ivp and scipy.solve_bvp		
+
+############### Linear algebra
+22. whats the difference between matrix and array				
+23. What is the difference between M*M and M@M multiplication			
+24. how deoes LU decomposition work						  
+25. how can one calculate matrix to the power of 1000 most efficiently		
+										
+############### Additional questions
+26. let say A=np.array([1,2,3]), what is the difference between:		  
+    B=A
+    B=A.copy()
+
+27 what is the difference between numpy and scipy				
+										  
+28. what is the purpose of sequence:
+    try:
+    ...										
+    except:
+    ...
+
+29. which method (and why) is faster to multiply matrices:				
+
+    a) for i in range(n):				        	
+    	for j in range(m):
+    	  for z in range(k):
+    	    product[i, j] += matrix1[i, z] * matrix2[z, j]
+    	    
+    b) product = np.matmul(matrix1, matrix2)	    
+
+30. What is the difference between Bisection and Newton-Rapson method?
