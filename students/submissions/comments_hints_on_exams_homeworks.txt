@@ -8,8 +8,8 @@ E2 - numbers
 E3 - lists (Gutenberg)
 E4 - Root Finding
 H5 - cuadratic polynomial interpolation 
-
-
+H6 - derivada 
+H7 - integracion usando Monte Carlos
 
 
 The exercise about imagenes I will count as an extra
