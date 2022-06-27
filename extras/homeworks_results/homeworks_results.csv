@@ -1,14 +1,15 @@
 NUMBER     ,  H01,H02,H03,
 1038768451 ,  A,   ,	,
 1039461641 ,  A,   ,	,
-1036659203 ,   ,   ,	,
-1010157719 ,   ,   ,	,
+1036659203 ,  -,   ,	,
+1010157719 ,  -,   ,	,
 1017260561 ,  A,   ,	,
 1000595702 ,  A,   ,	,
-1001477874 ,   ,   ,	,
+1001477874 ,  -,   ,	,
 
 homework_01 - Python repaso
 homework_02 - Root Finding
 
 A: approved
 R: refused (see the comments)
+-: not submitted
