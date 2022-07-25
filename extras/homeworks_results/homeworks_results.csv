@@ -4,7 +4,7 @@ NUMBER     ,  H01,H02,H03,
 1036659203 ,  -,   ,	,
 1010157719 ,  A,  A,	,
 1017260561 ,  A,  A,	,
-1000595702 ,  A,   ,	,
+1000595702 ,  A,  R,	,
 1001477874 ,  -,   ,	,
 
 homework_01 - Python repaso
@@ -12,5 +12,5 @@ homework_02 - Root Finding
 homework_03 - Interpolation using Newton Divided Differences
 
 A: approved
-R: refused (see the comments)
+R: refused (see the comments and correct the homework)
 -: not submitted
